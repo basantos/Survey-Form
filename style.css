@@ -1,0 +1,71 @@
+main {
+    padding: 10px 20%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, #description {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  
+  label, input, select, fieldset, legend {
+    padding: 10px;
+  }
+  
+  textarea, button {
+    margin-top: 10px;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  fieldset {
+    border: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  legend {
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  #radio-fieldset, #checkbox-fieldset {
+    padding-top: 5px;
+  }
+  
+  #radio-fieldset {
+    padding-bottom: 3px;
+    margin-top: 5px;
+  }
+  
+  #checkbox-fieldset {
+    padding-bottom: 3px;
+  }
+  
+  .option-div {
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  label {
+    padding-bottom: 5px;
+    padding-left: 0;
+  }
+  
+  button {
+    padding: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
